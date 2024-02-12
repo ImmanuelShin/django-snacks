@@ -8,8 +8,18 @@
 
 **How to initialize/run your application:**
   1. Clone the repository.
+   ```bash
+   git clone
+   ```
   2. Navigate to the project directory.
+   ```bash
+   cd django-snacks
+   ```
   3. Activate your virtual environment (if applicable).
+   ```bash
+   python3 -m venv .venv
+   source .venv/Scripts/activate
+   ```
   4. Install dependencies:
    ```bash
    pip install -r requirements.txt
