@@ -7,21 +7,32 @@
 ### Setup
 
 **How to initialize/run your application:**
-  1. Navigate to the project directory.
-  2. Activate your virtual environment (if applicable).
-  3. Install dependencies:
+  1. Clone the repository.
+   ```bash
+   git clone
+   ```
+  2. Navigate to the project directory.
+   ```bash
+   cd django-snacks
+   ```
+  3. Activate your virtual environment (if applicable).
+   ```bash
+   python3 -m venv .venv
+   source .venv/Scripts/activate
+   ```
+  4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-  4. Apply migrations:
+  5. Apply migrations:
   ```bash
   python manage.py migrate
   ```
-  5. Run server:
+  6. Run server:
   ```bash
   python manage.py runserver
   ```
-  6. Go to URL: Most likely http://127.0.0.1:8000/
+  7. Go to URL: Most likely http://127.0.0.1:8000/
 
 ### Tests
 
